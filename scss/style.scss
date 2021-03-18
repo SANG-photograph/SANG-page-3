@@ -155,7 +155,6 @@ body::-webkit-scrollbar-thumb {
         position: relative;
         pointer-events: none;
         &::after {
-            visibility: hidden;
             content: '';
             position: absolute;
             width: 40px;
@@ -263,7 +262,6 @@ body::-webkit-scrollbar-thumb {
     }
 
     &__link-web-inner-2 {
-        visibility: hidden;
         position: relative;
         &::after {
             content: '';
